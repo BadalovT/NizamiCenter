@@ -1,0 +1,88 @@
+.middle-about{
+    display: flex;
+    height: 87vh;
+    .left{
+        background-repeat: no-repeat;
+        width: 50%;
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        .left-text{
+            width: 100%;
+            padding: 40px;
+            h4{
+                color: $bg-color;
+                font-family: 'Open Sans', sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 38px;
+                line-height: 40px;
+            }
+            p{
+                font-family: 'Open Sans', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.03em;
+                color: $bg-color;
+            }
+        }
+        
+    .footer{
+        width: 100%;
+        .scroll-area{
+            width: 40% !important;
+        }
+    }
+    }
+    .right{
+        width: 50%;
+        height: 100%;
+        overflow-y: scroll;
+        &::-webkit-scrollbar {
+            width: 6px;
+        }
+        &::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            border-radius: 0px;
+        }
+        &::-webkit-scrollbar-thumb {
+          background-color: $main-color;
+          outline: 1px solid slategrey;
+          border-radius: 00px
+        }
+        .contact-info{
+            padding: 48px;
+            h3{
+                font-family: 'Open Sans', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 32px;
+                color: #000000;
+            }
+            p{
+                font-family: 'Open Sans', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.03em;
+                color: #A4A4A4;
+                span{
+                    font-family: 'Open Sans', sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.03em;
+                    color: #333333;
+                }
+            }
+        }
+    }
+}
+

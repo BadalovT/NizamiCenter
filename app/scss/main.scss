@@ -1,0 +1,28 @@
+
+$main-color:#282828;
+$bg-color: #FFFFFF;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+@import "home.scss";
+@import "responsive.scss";
+@import "header.scss";
+@import "middle.scss";
+@import "about.scss";
+@import "team.scss";
+@import "news.scss";
+@import "about2.scss";
+@import "media.scss";
+
+// @import "mouse.scss";
+
+
+
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+

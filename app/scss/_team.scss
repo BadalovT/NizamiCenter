@@ -1,0 +1,36 @@
+.team{
+    .slider{
+        .swiper-container{
+            .swiper-wrapper{
+                
+                .swiper-slide{
+                    margin-right : 15px !important;
+                    display: flex;
+                    align-items: flex-end !important;  
+                     
+                    .swiper-slide-text{
+                        margin-bottom: 50px;
+                        padding: 0 30px;
+                        text-align: left;
+                        h4{
+                            color: $bg-color;
+                            font-family: 'Open Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 26px;
+                            line-height: 32px;
+                        }
+                        p{
+                            color: $bg-color;
+                            font-family: 'Open Sans', sans-serif;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
