@@ -2,7 +2,8 @@
     
     var swiper = new Swiper('.home .swiper-container', {
      
-        // effect: 'fade',
+        // effect: 'fade',\
+        
         direction: 'horizontal',
         slidesPerView: 1,
         freeMode: true,
@@ -24,10 +25,12 @@
 
       
     var swiper = new Swiper('.news .swiper-container', {
-      slidesPerView: 3,
+      slidesPerView: 4,
       direction: 'horizontal',
       freeMode: true,
       freeModeSticky: true,
+      autoWidth:true,
+      // width:auto,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -94,3 +97,11 @@
           hide: true,
         },
     });
+
+
+    var a = document.querySelectorAll('.carde-img-top');
+    for(let x=0;x<a.length;x++){
+      a[x].nextElementSibling.style.width=a[x].offsetWidth + "px";
+    }
+    
+      
