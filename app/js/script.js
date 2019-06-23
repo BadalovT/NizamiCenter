@@ -1,9 +1,6 @@
 
     
     var swiper = new Swiper('.home .swiper-container', {
-     
-        // effect: 'fade',\
-        
         direction: 'horizontal',
         slidesPerView: 1,
         freeMode: true,
@@ -25,12 +22,11 @@
 
       
     var swiper = new Swiper('.news .swiper-container', {
-      slidesPerView: 4,
+      slidesPerView: 3,
       direction: 'horizontal',
       freeMode: true,
       freeModeSticky: true,
       autoWidth:true,
-      // width:auto,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -77,7 +73,6 @@
       slidesPerView: 3.5,
       direction: 'horizontal',
       spaceBetween: 30,
-      // loop: true,
       loopFillGroupWithBlank: true,
       freeMode: true,
       freeModeSticky: true,
@@ -99,9 +94,34 @@
     });
 
 
+    var swiper = new Swiper('.activity .swiper-container', {
+      slidesPerView: 3,
+      direction: 'horizontal',
+      freeMode: true,
+      freeModeSticky: true,
+      autoWidth:true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: { 
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      mousewheel: {
+          enable: true
+      },
+        scrollbar: {
+          el: '.swiper-scrollbar',
+          hide: true,
+        },
+       
+    });
+
+
     var a = document.querySelectorAll('.carde-img-top');
     for(let x=0;x<a.length;x++){
       a[x].nextElementSibling.style.width=a[x].offsetWidth + "px";
-    }
+    } 
     
       

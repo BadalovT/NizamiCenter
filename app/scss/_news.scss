@@ -17,10 +17,12 @@
             flex-direction: column;
             justify-content: space-between;
             .carde-body{
-              padding: 0 0 0 5px;
+              padding: 0 0 0 10px;
+              height: 35%;
             }
             img{
                 height: 65% !important;
+                padding-left: 10px;
             }
             p{
               font-family: Open Sans;
@@ -48,8 +50,9 @@
               letter-spacing: 0.03em;
               text-decoration-line: underline;
               text-transform: uppercase;
-              color: #282828;
+              color: $main-color;
               text-decoration: none;
+              padding: 0 0 10px 10px;
               img{
                 width: 21px;
               }
