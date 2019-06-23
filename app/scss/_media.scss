@@ -1,6 +1,7 @@
 .media-press{
     .swiper-slide{
-        margin: 0 -15px !important;
+        width: auto !important;
+        border-right: 5px solid white;
     }
     .swiper-slide-text{
         display: flex;
@@ -12,49 +13,24 @@
         }
         .one{
             height: 50%;
-            // overflow: hidden;
             width: 100%;
             img{
                 height: 100%;
-                // width: 100%;
                 transition: all .5s linear;
-                // &:hover{
-                //     transform:scale(1.1);
-                // }
+              
             }
         }
         .two{
             height: 50%;
             width: 100%;
             display: flex;
-            // margin-top: 5px;
             justify-content: center;
-            .two-left{
-                // display: flex !important;
-                // justify-content: flex-end !important;
-                // -webkit-box-pack: flex-end!important;
                 img{
                     height: 100%;
-                    // width: 100%;
-                    // &:nth-child(1){
-                    //     margin-right: 5px;
-                    // }
-                }
-            }
-            .two-right{
-                // display: flex !important;
-                // justify-content: flex-start !important;
-                // -webkit-box-pack: flex-start!important;
-                img{
-                    height: 100%;
-                    // width: 100%;
-                    // &:nth-child(1){
-                    //     margin-right: 5px;
-                    // }
-                }
-            }
-            
-            
+                    &:nth-child(1){
+                        margin-right: 8px;
+                    }
+                }  
         }
     }
 }
