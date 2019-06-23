@@ -3,6 +3,7 @@
     var swiper = new Swiper('.home .swiper-container', {
         direction: 'horizontal',
         slidesPerView: 1,
+        effect:"fade",
         freeMode: true,
         freeModeSticky: true,
         mousewheel: {
@@ -25,7 +26,6 @@
       slidesPerView: 3,
       direction: 'horizontal',
       freeMode: true,
-      freeModeSticky: true,
       autoWidth:true,
       pagination: {
         el: '.swiper-pagination',
@@ -46,12 +46,9 @@
     });
 
     var swiper = new Swiper('.media-press .swiper-container', {
-      slidesPerView: 2.4,
+      slidesPerView: 2.6,
       direction: 'horizontal',
-      spaceBetween: 0,
-      loopFillGroupWithBlank: true,
       freeMode: true,
-      freeModeSticky: true,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -75,7 +72,6 @@
       spaceBetween: 30,
       loopFillGroupWithBlank: true,
       freeMode: true,
-      freeModeSticky: true,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -98,7 +94,6 @@
       slidesPerView: 3,
       direction: 'horizontal',
       freeMode: true,
-      freeModeSticky: true,
       autoWidth:true,
       pagination: {
         el: '.swiper-pagination',
