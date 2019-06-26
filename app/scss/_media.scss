@@ -15,23 +15,30 @@
             height: 50%;
             width: 100%;
             position: relative;
+
             img{
                 height: 100%;
                 transition: all .5s linear;
                 position: relative;
-                
+                &:hover + .overlay{
+                        display: block;
+                        z-index: 999999;
+                }
             }
-            &::before{
-                content: "";
+            .overlay{
                 position: absolute;
                 margin: 0 auto;
-                top: 2%;
+                top: 3.5%;
                 left: 0;
                 right: 0;
-                width: 95%;
-                height: 95%;
-                border: 5px solid #f5f5f5;
-                z-index: 99999;
+                width: 93%;
+                height: 93%;
+                border: 2px solid #f5f5f5;
+                display: none;
+                z-index: 999999;
+                &:hover{
+                    display: block;
+                }
             }
         }
         .two{
@@ -42,14 +49,49 @@
             justify-content: space-between;
                 img{
                     height: 100%;
-                    // &:nth-child(1){
-                    //     margin-right: 8px;
-                    // }
+                   position: relative;
+                   &:hover + .overlay-left{
+                    display: block;
+                    z-index: 999999;
+            }
+            &:hover + .overlay-right{
+                display: block;
+                z-index: 999999;
+        }
+
                 }  
+                
+                .overlay-left{
+                    position: absolute;
+                    margin: 0 auto;
+                    top: 5%;
+                    left: 4px;
+                    width: 48%;
+                    height: 90%;
+                    border: 5px solid #f5f5f5;
+                    z-index: 999999;
+                    display: none;
+                    &:hover{
+                        display: block;
+                    }
+                }
+                .overlay-right{
+                    position: absolute;
+                    margin: 0 auto;
+                    top: 5%;
+                    right: 4px;
+                    width: 48%;
+                    height: 90%;
+                    border: 5px solid #f5f5f5;
+                    z-index: 999999;
+                    display: none;
+                    &:hover{
+                        display: block;
+                    }
+                }
         }
     }
 }
-
 .modal{
     .modal-dialog{
         .modal-content{
