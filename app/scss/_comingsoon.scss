@@ -27,6 +27,7 @@
     }
     .center-img{
         width: 45%;
+        z-index: -1;
     }
     .arrow{
         margin-bottom: 20px;
@@ -108,4 +109,7 @@
     bottom: 0;
     left: 0;
     z-index: -1;
+}
+.path{
+    z-index: -2;
 }
