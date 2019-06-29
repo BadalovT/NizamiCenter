@@ -5,10 +5,11 @@ header{
         background: $bg-color;
         height: 90px;
         padding: 0px 26px!important;
-       
         .collapse{
             justify-content: flex-end !important;
             ul{
+                background-color: #fff !important;
+
                 .active{
                     position: relative;
                     &::before{
