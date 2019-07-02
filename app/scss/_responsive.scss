@@ -83,7 +83,7 @@
               }
           }
       }
-      .news{
+      .news, .team{
         .sidebar{
           display: none !important;
         }
@@ -100,12 +100,17 @@
                 height: unset !important; 
                 .swiper-slide{
                   height: unset !important; 
+                  width: 100% !important;
+                  margin-bottom: 30px;
                   .carde{
                     width: 100% !important;
                     padding: 0 10px;
                     img{
                       // max-width: 100% !important;
                       padding-left: 0px !important;
+                    }
+                    .carde-body{
+                      width:  100% !important;
                     }
                   }
                 }
@@ -147,6 +152,30 @@
                 }
             }
             }
+          }
+        }
+      }
+      .middle-about{
+        height: unset !important;
+        flex-direction: column !important;
+        .left{
+          width: 100% !important;
+          height: 300px;
+          .left-text{
+            padding: 10px !important;
+            h4{
+              font-size: 24px;
+            }
+          }
+        }
+        .right{
+          width: 100% !important;
+          overflow: unset !important;
+          .contact-info{
+            padding: 20px 10px !important;
+          }
+          .about-info{
+            padding: 20px 10px !important;
           }
         }
       }
