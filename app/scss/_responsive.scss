@@ -8,7 +8,7 @@
               margin-bottom: 0 !important;
               margin-top: 0 !important;
               height: initial !important;
-              a{
+              .navbar-brand{
                 margin-left: 10px;
               }
               .navbar-toggler{
@@ -16,11 +16,14 @@
               }
               .navbar-collapse{
                     z-index: 9999 !important;
-                    background: white !important;
-                    padding-left: 20px;
+                    background: $main-color !important;
+                    height: 88vh !important;
                   ul{
+                    background: $main-color !important;
                       li{
                         padding: 16px 0 !important;
+                        color: white !important;
+                        margin: 10px auto !important;
                         &:before{
                             width: 0px !important;
                             height: 0px !important;
@@ -30,6 +33,8 @@
                             font-size: 18px;
                             line-height: 0 !important;
                             letter-spacing: 0 !important;
+                            color: white !important;
+
                         }
                         button{
                             background: none !important;
@@ -39,15 +44,114 @@
                             padding-top: 0 !important;
                             padding-bottom: 0 !important;
                             line-height: 0 !important;
-                            margin-left: 5px;
+                            // margin-left: 5px;
+                            display: none;
                             img{
                                 
                             }
                         }
+                        &:last-child {
+                          display: none;
+                        }
+                      }
+                      .active{
+                        position: relative;
+                        a{
+                          &::after{
+                            content: "";
+                            width: 40px;
+                            height: 1px;
+                            position: absolute;
+                            top: 24px; 
+                            left: -66px;
+                            background-color: #fff;
+                            margin-left: 0 !important;
+                          }
+                          &::before{
+                            content: "";
+                            width: 40px;
+                            height: 1px;
+                            position: absolute;
+                            top: 24px; 
+                            right: -66px;
+                            background-color: #fff;
+                          }
+                        }
+                       
                       }
                   }
               }
           }
+      }
+      .news{
+        .sidebar{
+          display: none !important;
+        }
+        .content{
+          height: unset !important; 
+          width: 100% !important;
+          .slider{
+            height: unset !important; 
+            .swiper-container{
+              height: unset !important; 
+              .swiper-wrapper{
+                display: flex;
+                flex-direction: column;
+                height: unset !important; 
+                .swiper-slide{
+                  height: unset !important; 
+                  .carde{
+                    width: 100% !important;
+                    padding: 0 10px;
+                    img{
+                      // max-width: 100% !important;
+                      padding-left: 0px !important;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .home{
+        .sidebar{
+          display: none !important;
+        }
+        .content{
+          height: unset !important; 
+          width: 100% !important;
+          .slider{
+            height: unset !important; 
+            .swiper-container{
+              height: unset !important;
+              .swiper-wrapper{
+                height: unset !important;
+                .swiper-slide{
+                  height: 87vh !important;
+                  align-items: center !important;
+                  padding: 39px 49px!important;
+                }
+              }
+              .swiper-pagination{
+                display: block !important;
+                .swiper-pagination-bullet{
+                  background: white;
+                  outline: none;
+                  transition: all .3s linear;
+                }
+                .swiper-pagination-bullet-active{
+                  width: 12px;
+                  border-radius: 8px;
+                  transition: all .3s linear;
+                }
+            }
+            }
+          }
+        }
+      }
+      .footer{
+        display: none !important;
       }
     }
   }
