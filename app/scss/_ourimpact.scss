@@ -1,0 +1,43 @@
+.ourimpact{
+    h1{
+        font-family: Lora;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #000000;
+    }
+    .statist{
+        text-align: center;
+        p{
+            font-family: 'Lora', serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 30px;
+            letter-spacing: 0.03em;
+            color: #000000;
+        }
+        span{
+            font-size: 18px;
+            line-height: 18px;
+            letter-spacing: 0.03em;
+            color: #A4A4A4;
+        }
+    }
+    .map{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 20px #F2F2F2;
+        border-radius: 5px;
+        img{
+            width: 100%;
+        }
+    }
+}

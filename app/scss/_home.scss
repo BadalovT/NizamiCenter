@@ -1,0 +1,51 @@
+.home{
+    height: 87vh;
+    position: relative;
+    .sidebar{
+        width: 5%;
+        background: $main-color;
+        color: $bg-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 87vh;
+        opacity: .8;
+        p{
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-size: 20px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            transform:rotate(-90deg)
+        }
+    }
+    .footer{
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: $main-color;
+        opacity: .8;
+        padding: 20px 0px 20px 120px;
+        h5{
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            color: #FFFFFF;
+        }
+        p{
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            color: #FFFFFF;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    }
+}
