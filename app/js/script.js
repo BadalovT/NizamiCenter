@@ -6,21 +6,16 @@
         effect:"fade",
         freeMode: true,
         freeModeSticky: true,
-        mousewheel: {
-          enable: true,
-      },
+        autoplay:true,
+      });
 
-        scrollbar: {
-          el: '.swiper-scrollbar',
-          hide: true,
-        },
+      var swiper = new Swiper('.leadersabout .swiper-container', {
+        direction: 'horizontal',
+        slidesPerView: 1,
+        autoplay:true,
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
-          },
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
           },
       });
 

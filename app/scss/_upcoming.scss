@@ -1,0 +1,91 @@
+.upcoming{
+   
+    .left{
+        background-image: url('../img/upcoming.png');
+        height: 350px;
+        display: flex;
+        align-items: center;
+        img{
+            width: 100%;
+            height: 80%;
+        }
+    }
+    .right{
+        .text{
+            padding: 10px;
+            background-color: #fff;
+            background: #FBFBFB;
+        }
+        h2{
+            font-family: Lora;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 42px;
+            letter-spacing: 0.03em;
+            color: #000000;
+            margin-bottom: 0;
+        }
+        h6{
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 32px;
+            letter-spacing: 0.03em;
+            color: #000000;
+            margin-bottom: 0;
+        }
+        p{
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 24px;
+            letter-spacing: 0.03em;
+            color: #707070;
+            margin-bottom: 0;
+            span{
+                margin-right: 5px;
+                i{
+                    color: #2F80ED
+                }
+            }
+        }
+        span{
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 13px;
+            line-height: 32px;
+            letter-spacing: 0.02em;
+            color: #8EC43F;
+        }
+        .square{
+            display: flex;
+            justify-content: flex-start;
+            .small-square{
+                background: linear-gradient(180deg, #123B4D 0%, #43707A 100%);
+                border-radius: 4px;
+                // padding: 8px;
+                width: 37.88px;
+                height: 37px;
+                display: flex;  
+                justify-content: center;
+                align-items: center;
+                margin-right: 8px;
+                .small-square-span{
+                    color: white;
+                    font-family: Open Sans;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+        }
+        
+    }
+}

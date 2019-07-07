@@ -1,0 +1,47 @@
+footer{
+    h4{
+        // font-family: Segoe UI;
+        font-size: 16px;
+        line-height: 40px;
+        color: #000000;
+        font-weight: bold;
+    }
+    ul{
+        padding-left: 0;
+        margin-left: 0;
+
+        li{
+            list-style: none;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+    }
+    .logo{
+        background: #FFFFFF;
+        box-shadow: -1px 25px 20px #F2F2F2;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+    }
+    .copyright{
+        background-color: $main-color;
+        padding: 20px;
+        .text{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            p{
+                font-family: Segoe UI;
+                font-size: 14px;
+                line-height: 19px;
+                color: #FFFFFF;
+                margin-bottom: 0;
+            }
+        }
+  
+    }
+}
