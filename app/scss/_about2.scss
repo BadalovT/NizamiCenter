@@ -9,6 +9,7 @@
             font-size: 28px;
             line-height: 32px;
             color: black;
+            margin-bottom: 20px;
         }
         .span-date{
             font-family: 'Open Sans', sans-serif;
@@ -27,6 +28,17 @@
             line-height: 24px;
             letter-spacing: 0.03em;
             color: #333333;
+        }
+        i{
+            font-size: 25px;
+            color: gray;
+        }
+        ul{
+            margin-bottom: 30px !important;
+            li{
+                list-style: none;
+                margin-bottom: 20px;
+            }
         }
         .span-text{
             border-left: 22px solid #EEEEEE;
