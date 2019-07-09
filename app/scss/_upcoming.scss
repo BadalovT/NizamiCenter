@@ -2,7 +2,7 @@
    
     .left{
         background-image: url('../img/upcoming.png');
-        height: 350px;
+        padding: 50px 0;
         display: flex;
         align-items: center;
         img{
@@ -11,8 +11,9 @@
         }
     }
     .right{
+
         .text{
-            padding: 10px;
+            padding: 32px 100px 32px 32px;
             background-color: #fff;
             background: #FBFBFB;
         }
@@ -27,7 +28,7 @@
             margin-bottom: 0;
         }
         h6{
-            font-family: Open Sans;
+            font-family: 'Open Sans', sans-serif;
             font-style: normal;
             font-weight: bold;
             font-size: 18px;
@@ -37,7 +38,7 @@
             margin-bottom: 0;
         }
         p{
-            font-family: Open Sans;
+            font-family: 'Open Sans', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 13px;
@@ -45,6 +46,7 @@
             letter-spacing: 0.03em;
             color: #707070;
             margin-bottom: 0;
+            margin-bottom: 20px;
             span{
                 margin-right: 5px;
                 i{
@@ -52,8 +54,11 @@
                 }
             }
         }
+        .p-bold{
+            font-weight: bold;
+        }
         span{
-            font-family: Open Sans;
+            font-family: 'Open Sans', sans-serif;
             font-style: normal;
             font-weight: bold;
             font-size: 13px;
@@ -76,7 +81,7 @@
                 margin-right: 8px;
                 .small-square-span{
                     color: white;
-                    font-family: Open Sans;
+                    font-family: 'Open Sans', sans-serif;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 16px;
